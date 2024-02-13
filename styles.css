@@ -1,0 +1,224 @@
+body, html{
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+/* header styling */
+#marvelLogo{
+    width: 120px;
+    height: 40px;
+}
+
+#header span a{
+    color: red;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* horizontal line styling */
+#horizontalLine{
+    border: 1px solid white;
+}
+
+
+/* super hero container styling */
+.margin15px{
+    margin: 15px;
+}
+
+#characterContainer{
+    margin : 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    color: white;
+}
+
+#searchInput{
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+.superheroesList{
+    margin: 10px;
+    margin-left: 18%;
+    justify-content: center;
+}
+
+.superheroesList div{
+    margin-bottom: 15px;
+}
+
+.characterNameDiv{
+    background-color: white;
+    height: 50px;
+    width: 108%;
+    display: flex;
+}
+
+.characterName{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    display: inline-block;
+}
+
+.characterFavourite{
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    border: none;
+    transform: scale(1.2);
+    background-color: white;
+}
+
+
+/* comic list styling */
+.ComicNameDiv{
+    background-color: white;
+    height: 300px;
+    width: 108%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+.ComicName{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    /* display: inline-block; */
+}
+
+.ComicDescription {
+    font-size: 12px;
+    text-align: justify;
+    padding: 0 10px;
+    display: block;
+    height: calc(100% - 100px); /* Adjust max-height */
+    overflow-y: auto;
+    margin-top: -30px;
+    border-bottom: 1px solid grey;
+}
+
+.ComicDescription::-webkit-scrollbar {
+    width: 0;
+    background: transparent; 
+}
+
+.creatorName{
+    font-size: 14px;
+    text-align: justify;
+    position: relative;
+    padding: 0 10px;
+    max-height: 100px;
+    overflow-y: auto;
+}
+.creatorName::-webkit-scrollbar {
+    width: 0;
+    background: transparent; 
+}
+
+.label{
+    color: black;
+    font-weight: 500;
+}
+
+.creators{
+    color: grey;
+    font-weight: 300;
+}
+
+.Comicfooter{
+    font-size: 13px;
+    position: absolute;
+    bottom: 0px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+/* selected character div */
+#descriptionDiv{
+    width: 70%;
+    margin: 20px auto;
+    height: auto;
+    background-color: white;
+    display: flex;
+    
+}
+
+.commonCharClass{
+    margin: 15px;
+    color: slategrey;
+    text-align: left;
+}
+
+.charName{
+    font-size: 2.5rem;
+}
+
+#characterDescription{
+    font-size: 1.1rem;
+}
+
+#additionalCharacterInfo{
+    margin-top: 20px;
+}
+
+.charFooter{
+    position: relative;
+}
+
+
+
+.favImg{
+    width: 108%;
+}
+
+.favBtn{
+    position: absolute;
+    width: 20px;
+    bottom: 20px;
+    right: 0;
+    border: none;
+    background-color: white;
+}
+
+.favorite-character{
+    margin: 10px;
+}
+
+#favoriteCharacters{
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 30px;
+}
+
+.margin35px{
+    margin: 35px;
+}
+
+
+
+
+
+
+
+
+
+

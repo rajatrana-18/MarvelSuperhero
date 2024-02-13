@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superhero</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/sticky-footer-navbar.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <!-- header for the superhero page. -->
+    <header>
+      <div id="header">
+        <img
+          id="marvelLogo"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/1200px-Marvel_Logo.svg.png"
+        />
+        <span id="home">
+          <a href="index.html">Characters</a>
+        </span>
+        <span id="favourites">
+          <a href="favourites.html">Favourites</a>
+        </span>
+      </div>
+    </header>
+    <hr id="horizontalLine" />
+    <div id="descriptionDiv">
+      <img id="imageDescription" />
+      <div id="mainCharDiv">
+        <h2 class="charName commonCharClass"></h2>
+        <div id="characterDescription" class="commonCharClass"></div>
+        <div id="additionalCharacterInfo" class="commonCharClass">
+          <span class="addInfo">Comic: </span>
+          <span class="addInfo" id="comic"></span>
+          <span class="addInfo">| Series: </span>
+          <span class="addInfo" id="series"></span>
+          <span class="addInfo">| Stories: </span>
+          <span class="addInfo" id="stories"></span>
+          <span class="addInfo">| Events: </span>
+          <span class="addInfo" id="event"></span>
+        </div>
+        <div class="commonCharClass charFooter" id="charFooter"></div>
+      </div>
+    </div>
+
+    <div id="comicDetails" class="superheroesList"></div>
+
+    <script src="superhero.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
